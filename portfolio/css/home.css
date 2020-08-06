@@ -1,0 +1,101 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+  
+#custMenu{
+    background: #3c495c;
+    font-style: normal;
+    list-style-type: none;
+    opacity: 89%;
+    padding: 2.4rem 10rem 2rem 10rem !important;
+    text-align: center !important;
+}
+
+.custPadding{
+    padding: 0 !important;
+}
+
+#custLogo, .custItems:hover, .custItems:focus, #custNamae, #custLeft, #custRight, #custName{
+    color:#fff;
+}
+
+#custLogo, #custProfession, #custNamae{
+    font-weight: bold;
+}
+
+#custLogo, .custItems{
+    font-size: 2rem;
+}
+
+.custItems{
+    color: rgb(202, 202, 202);
+}
+
+.custItems:hover, .custItems:focus{
+    animation: glow 1s ease-in-out infinite alternate;
+    text-decoration: none;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px  rgb(255, 114, 31), 0 0 20px #fff, 0 0 30px #3bc2fa, 0 0 40px #3bc2fa, 0 0 50px #3bc2fa, 0 0 60px #3bc2fa, 0 0 70px #3bc2fa;
+    }
+    to {
+      text-shadow: 0 0 20px  rgb(255, 114, 31), 0 0 30px #52cff0, 0 0 40px #52cff0, 0 0 50px #52cff0, 0 0 60px #52cff0, 0 0 70px #52cff0, 0 0 80px #52cff0;
+    }
+}
+
+#custContent{
+    background-image: url("../images/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+#custBody{
+    height: 93.%;
+    width: 100%;
+}
+
+#custName, #custNamae, #custFooter{
+    text-align: center;
+}
+
+#custName{
+    font-family: pristina;
+    font-size: 12rem;
+    padding-top: 10rem;
+}
+
+#custNamae{
+    font-family: biz udgothic;
+    font-size: 3rem;
+    margin-top:-30px;
+    padding-bottom: 10rem;
+}
+
+#custLeft, #custRight{
+    font-size: 1.56rem;
+    height: 30rem;
+    padding: 7.6rem 2rem 7.6rem 20rem;
+}
+
+#custRight{
+    padding: 7.6rem 20rem 7.6rem 6rem;
+}
+
+#custProfession{
+    color: #cbb4ff;
+}
+
+#custFooter{
+    bottom: 4.5rem;
+    color: #2f3448;
+    font-size: 1.1rem;
+    font-style: italic;
+    position: absolute;
+}
