@@ -2,30 +2,40 @@ body, html {
     height: 100%;
     margin: 0;
 }
+
+#custContent{
+    background-image: url("../images/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* height: 100%; */
+    padding: 0;
+
+    width: 100%;
+  height: 100%;
+  /* background-image: url('img_flowers.jpg'); */
+  background-size: 100% 100%;
+  /* border: 1px solid red; */
+}
   
 #custMenu{
     background: #3c495c;
     font-style: normal;
     list-style-type: none;
     opacity: 89%;
-    padding: 2.4rem 10rem 2rem 10rem !important;
     text-align: center !important;
 }
 
-.custPadding{
-    padding: 0 !important;
-}
-
-#custLogo, .custItems:hover, .custItems:focus, #custNamae, #custLeft, #custRight, #custName{
+.custItems:hover, .custItems:focus, #custName, #custNamae, #custLeft, #custRight{
     color:#fff;
 }
 
-#custLogo, #custProfession, #custNamae{
+#custLogo, #custNamae{
     font-weight: bold;
 }
 
-#custLogo, .custItems{
-    font-size: 2rem;
+#custLogo{
+    margin-left: 1.5%;
 }
 
 .custItems{
@@ -48,54 +58,59 @@ body, html {
     }
 }
 
-#custContent{
-    background-image: url("../images/bg.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-}
-
-#custBody{
-    height: 93.%;
-    width: 100%;
-}
-
-#custName, #custNamae, #custFooter{
+#custName, #custNamae, #custQuote, #custFooter{
     text-align: center;
 }
 
 #custName{
     font-family: pristina;
-    font-size: 12rem;
-    padding-top: 10rem;
+    font-size: 8vw;
+    padding-top: 5%;
 }
 
 #custNamae{
     font-family: biz udgothic;
-    font-size: 3rem;
+    font-size: 2vw;
     margin-top:-30px;
-    padding-bottom: 10rem;
+    padding-bottom: 5%;
+}
+
+.row{
+    margin:0 !important;
 }
 
 #custLeft, #custRight{
-    font-size: 1.56rem;
-    height: 30rem;
-    padding: 7.6rem 2rem 7.6rem 20rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1em;
+    opacity: 0.8;
+    padding: 3%;
+}
+
+#custLeft{
+    background-image: url("../images/contentBg1.png");
 }
 
 #custRight{
-    padding: 7.6rem 20rem 7.6rem 6rem;
+    background-image: url("../images/contentBg2.png");
 }
 
 #custProfession{
     color: #cbb4ff;
 }
 
-#custFooter{
-    bottom: 4.5rem;
+#custQuote{
     color: #2f3448;
-    font-size: 1.1rem;
+    font-size: 0.9em;
     font-style: italic;
+    padding-top: 2%;
+}
+
+#custFooter{
+    background: #3c495c;
+    bottom:0;
+    color: #f3f3f3;
+    font-size: 0.6em;
     position: absolute;
 }
