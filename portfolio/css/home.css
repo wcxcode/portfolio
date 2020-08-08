@@ -83,10 +83,10 @@ body, html {
 
 #custFooter{
     background: #3c495c;
-    bottom:0;
+    bottom: 0;
     color: #f3f3f3;
     padding: 5px 0;
-    position: absolute;
+    position: fixed;
 }
 
 /* Desktop settings */
@@ -149,6 +149,7 @@ body, html {
     }
 
     #custName{
+        font-family: "Lucida sans";
         font-size: 10vw;
         padding-top: 17%;
     }
@@ -178,6 +179,6 @@ body, html {
     }
 
     #custFooter{
-        font-size: 1vw;
+        font-size: 1.5vw;
     }
 }
