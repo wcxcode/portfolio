@@ -85,11 +85,11 @@ body, html {
     background: #3c495c;
     bottom:0;
     color: #f3f3f3;
-    font-size: 0.5vw;
     padding: 5px 0;
     position: absolute;
 }
 
+/* Desktop settings */
 @media screen and (min-width: 1900px){
     #custMenu{
         text-align: center !important;
@@ -127,8 +127,13 @@ body, html {
         font-size: 0.8vw;
         padding-top: 1.8%;
     }
+
+    #custFooter{
+        font-size: 0.5vw;
+    }
 }
 
+/* Samsung S10 settings */
 @media screen and (min-width: 411px) and (max-width: 500px){
     #custMenu{
         text-align: left !important;
@@ -145,12 +150,12 @@ body, html {
 
     #custName{
         font-size: 10vw;
-        padding-top: 13%;
+        padding-top: 17%;
     }
 
     #custNamae{
-        font-size: 2.5vw;
-        padding-bottom: 13%;
+        font-size: 2.7vw;
+        padding-bottom: 17%;
     }
 
     #custLeft, #custRight{
@@ -170,5 +175,9 @@ body, html {
     #custQuote{
         font-size: 2vw;
         padding: 3% 3% 5% 3%;
+    }
+
+    #custFooter{
+        font-size: 1vw;
     }
 }
