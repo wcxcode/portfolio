@@ -9,35 +9,12 @@ body, html {
     padding: 0;
     width: 100%;
 }
-
-@media screen and (min-width: 1900px){
-    #custContent{
-        background-image: url("../images/bg.png");
-        background-size: 100% 100%;
-        height: 100%;
-    }
-}
-
-@media screen and (min-width: 360px) and (max-width: 500px){
-    #custContent{
-        background-image: url("../images/bg-1080.png");
-        background-size: 100% 60%;
-        height: 43%;
-        padding: 0;
-        width: 100%;position:absolute;top:0;
-    }
-
-    #custLeft, #custRight{
-        text-align: center;
-    }
-}
   
 #custMenu{
     background: #3c495c;
     font-style: normal;
     list-style-type: none;
     opacity: 89%;
-    text-align: center !important;
 }
 
 .custItems:hover, .custItems:focus, #custName, #custNamae, #custLeft, #custRight{
@@ -75,13 +52,10 @@ body, html {
 
 #custName{
     font-family: pristina;
-    font-size: 8vw;
-    padding-top: 5%;
 }
 
 #custNamae{
     font-family: biz udgothic;
-    font-size: 2vw;
     margin-top:-3%;
     padding-bottom: 5%;
 }
@@ -95,16 +69,7 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     font-size: 1vw;
-    opacity: 0.8;
     padding: 3%;
-}
-
-#custLeft{
-    background-image: url("../images/contentBg1.png");
-}
-
-#custRight{
-    background-image: url("../images/contentBg2.png");
 }
 
 #custProfession{
@@ -113,15 +78,97 @@ body, html {
 
 #custQuote{
     color: #2f3448;
-    font-size: 1vw;
     font-style: italic;
-    padding-top: 3%;
 }
 
 #custFooter{
     background: #3c495c;
     bottom:0;
     color: #f3f3f3;
-    font-size: 0.6vw;
+    font-size: 0.5vw;
+    padding: 5px 0;
     position: absolute;
+}
+
+@media screen and (min-width: 1900px){
+    #custMenu{
+        text-align: center !important;
+    }
+
+    #custName{
+        font-size: 8vw;
+        padding-top: 5%;
+    }
+
+    #custNamae{
+        font-size: 2vw;
+    }
+
+    #custLeft, #custRight{
+        text-align: left;
+        opacity: 0.8;
+    }
+
+    #custLeft{
+        background-image: url("../images/contentBg1.png");
+    }
+    
+    #custRight{
+        background-image: url("../images/contentBg2.png");
+    }
+
+    #custContent{
+        background-image: url("../images/bg.png");
+        background-size: 100% 100%;
+        height: 100%;
+    }
+
+    #custQuote{
+        font-size: 0.8vw;
+        padding-top: 1.8%;
+    }
+}
+
+@media screen and (min-width: 411px) and (max-width: 500px){
+    #custMenu{
+        text-align: left !important;
+    }
+
+    #custMobileContent{
+        background-image: url("../images/bg-1080.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 100%;
+        padding: 0;
+        width: 100%;
+    }
+
+    #custName{
+        font-size: 10vw;
+        padding-top: 13%;
+    }
+
+    #custNamae{
+        font-size: 2.5vw;
+        padding-bottom: 13%;
+    }
+
+    #custLeft, #custRight{
+        font-size: 2.5vw;
+        text-align: center;
+        opacity: 0.9;
+    }
+
+    #custLeft{
+        background-image: url("../images/contentBg1-1080.png");
+    }
+
+    #custRight{
+        background-image: url("../images/contentBg2-1080.png");
+    }
+
+    #custQuote{
+        font-size: 2vw;
+        padding: 3% 3% 5% 3%;
+    }
 }
