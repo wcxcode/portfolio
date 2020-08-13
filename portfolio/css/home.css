@@ -17,12 +17,8 @@ body, html {
     opacity: 89%;
 }
 
-.custItems:hover, .custItems:focus, #custNamae, #custLeft, #custRight{
+.custItems:hover, .custItems:focus, #custName, #custNamae, #custLeft, #custRight{
     color:#fff;
-}
-
-#custName{
-	color: #000;
 }
 
 #custLogo{
